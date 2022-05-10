@@ -4,19 +4,22 @@ Para trabalhar com desenvolvimento de software web, você vai precisar de um só
 
 Na primeira parte da sua jornada através do **HTML & CSS**, você vai aprender na prática como utilizar HTML para estruturar páginas web.
 
-## Exercicio de Fixação
+## Exercicios
 
-Foi prosposto a criação de uma página html simples utilizando conceitos de tags básicas onde deveria conter os seguintes requisitos.
+Os exercicios são dividido em trẽs partes:
 
-1. Crie uma lista das pessoas que você já fez amizade na Trybe.
-2. Adicione uma imagem que venha de uma URL externa.
-3. Adicione uma imagem que está no seu computador, local.
-4. Crie um parágrafo para cada pessoa da sua lista.
-5. Crie um link entre a sua lista e os parágrafos de pessoas.
-6. Crie um link para a página do Google.
+**1. Fixação:**
 
-## Exercicio Aula ao Vivo.
+Contem exercicios divididos por cada tema abordado como uma proposta realmente de fixar o que foi aprendido naquele tema.
 
-Aqui temos que replicar uma página web antiga da trybe colocando todos seus conteudos e criando o mais proximo possivel, inicialmente utilizando apenas html. 
+**2. Aula ao vivo:**
 
-A ideia é criar apenas o esqueleto da página e personliza-la depois no proximo dia utilizando CSS.
+Exercico feito pelo professor durante aula ao vivo e replicado depois por mim, utilizando todos os temas aborados acima.
+
+**3. Portfólio:**
+
+Aplicação de todos os temas do dia em um página de portifolio desenvolvida ao longo do bloco.
+
+[PORTFÓLIO](https://m4rcos-dev.github.io)
+
+
