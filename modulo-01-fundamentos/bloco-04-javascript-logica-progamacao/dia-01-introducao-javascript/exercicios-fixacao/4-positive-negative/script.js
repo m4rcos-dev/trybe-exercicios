@@ -1,12 +1,9 @@
 const numero = -10;
 
-switch (numero) {
-    case -10:
-        console.log("negative");
-        break;
-    case 10:
-        console.log ("positive");
-        break;
-    default:
-        console.log ("não é numero");
+if (numero > 0) {
+    console.log ("positive")
+} else if (numero < 0) {
+    console.log ("negative")
+} else {
+    console.log ("zero")
 }
