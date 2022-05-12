@@ -1,14 +1,14 @@
 const a = 30;
-const b = 300;
+const b = 20;
 const c = 30;
 let resultado;
 
 if (a > b && a > c) {
-    resultado = a;
+    console.log ("'a' é maior que 'b' e 'c'");
 } else if (b > a && b > c) {
-    resultado = b;
+    console.log ("'b' é maior que 'a' e 'c'");
 } else {
-    resultado = c;
+    console.log ("'c' é maior que 'b' e 'a'");
 }
 
-console.log (resultado);
+
