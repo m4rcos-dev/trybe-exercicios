@@ -1,11 +1,10 @@
 const a = 10;
 const b = 30;
-let resultado;
+
 
 if (a > b) {
-    resultado = a;
+    console.log ("'a' é maior 'b'");
 } else {
-    resultado = b;
+    console.log ("'b' é maior 'a'");
 }
 
-console.log (resultado);
