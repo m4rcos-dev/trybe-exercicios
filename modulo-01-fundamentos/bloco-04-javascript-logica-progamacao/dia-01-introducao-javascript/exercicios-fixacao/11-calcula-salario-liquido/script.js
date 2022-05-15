@@ -4,11 +4,11 @@ let salarioComIr;
 let salarioLiquido;
 
 if (salarioBruto <= 1556.94) {
-    salarioComInss = salarioBruto - (((8 / 100 + 1) * salarioBruto) - salarioBruto);//Retirar 8% - divide 8 por 100 resultado soma 1 || multiplica pelo valor que quer saber os 8% o resultado menos o valor que quer saber os 8% || o resultado subtrai no valor que quer saber os 8%.
+    salarioComInss = salarioBruto - (8 / 100 * salarioBruto);
 } else if (salarioBruto <= 2594.92) {
-    salarioComInss = salarioBruto - (((9 / 100 + 1) * salarioBruto) - salarioBruto);
+    salarioComInss = salarioBruto - (9 / 100 * salarioBruto);
 } else if (salarioBruto <= 5189.82) {
-    salarioComInss = salarioBruto - (((11 / 100 + 1) * salarioBruto) - salarioBruto);
+    salarioComInss = salarioBruto - (11 / 100 * salarioBruto);
 } else {
     salarioComInss = salarioBruto - 570.88;
 };
@@ -16,13 +16,13 @@ if (salarioBruto <= 1556.94) {
 if (salarioComInss <= 1903.98) {
     salarioComIr = salarioComInss;
 } else if (salarioComInss <= 2826.65) {
-    salarioComIr = (((7.5 / 100 + 1) * salarioComInss) - salarioComInss) - 142.80;
+    salarioComIr = (7.5 / 100 * salarioComInss) - 142.80;
 } else if (salarioComInss <= 3751.05) {
-    salarioComIr = (((15 / 100 + 1) * salarioComInss) - salarioComInss) - 354,80;
+    salarioComIr = (15 / 100 * salarioComInss) - 354, 80;
 } else if (salarioComInss <= 4664.68) {
-    salarioComIr = (((22.5 / 100 + 1) * salarioComInss) - salarioComInss) - 636.13;
+    salarioComIr = (22.5 / 100 * salarioComInss) - 636.13;
 } else {
-    salarioComIr = (((27.5 / 100 + 1) * salarioComInss) - salarioComInss) - 869.36;
+    salarioComIr = (27.5 / 100 * salarioComInss) - 869.36;
 };
 
 if (salarioComInss > 1903.98) {
