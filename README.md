@@ -6,7 +6,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a introdução de desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web: :white_check_mark:
+## Fundamentos do Desenvolvimento Web: ⏳
 
 ##### Bloco 1: Introdução - Unix e Shell
 
@@ -84,7 +84,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 10-3: _Jest - Simulando Comportamentos_
 - [ ] 10-4: _ [Projeto - Montagem e Simulação de Brincadeiras] () _
 
-## Desenvolvimento front-end: hourglass_flowing_sand:
+## Desenvolvimento front-end: ⏳
 
 ##### Bloco 11: Introdução - Reagir
 
@@ -140,7 +140,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [ ] 19-1: _ [Projeto - Aplicativo de Receita] () _
 
-## Desenvolvimento de back-end: hourglass_flowing_sand:
+## Desenvolvimento de back-end: ⏳
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -236,7 +236,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [ ] 34-1: _ [Projeto - Trybeer V2] () _
 
-## Ciência da Computação: hourglass_flowing_sand:
+## Ciência da Computação: ⏳
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
