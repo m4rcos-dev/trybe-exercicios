@@ -25,7 +25,8 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 3-2: _HTML e CSS - Introdução ao CSS_
 - [ ] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML semântico_
-- [ ] 3-5: _ [Projeto - HTML e CSS] () _
+- [ ] 3-5: [Projeto HTML e CSS | LESSONS LEARNED](https://m4rcos-dev.github.io/trybe-projetos/Lessons-Learned/) 
+<a href="https://m4rcos-dev.github.io/trybe-projetos/Lessons-Learned/" target="_blank">Projeto HTML e CSS | LESSONS LEARNED</a>
 
 ##### Bloco 4: Introdução - JavaScript
 
