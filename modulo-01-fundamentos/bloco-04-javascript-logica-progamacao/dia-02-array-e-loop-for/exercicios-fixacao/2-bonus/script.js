@@ -1,6 +1,6 @@
-//=========\\
-//BUBBLE SORT\\
-//=============\\
+  //==========|
+ //BUBBLE SORT|
+//============|
 
 //EXERCICIO 1
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -17,9 +17,9 @@ for (let index = 1; index < numbers.length; index += 1) { //1 - PERCORRE TODO AR
 }
 console.log(numbers); //7 - MOSTRA NA TELA O ARRAY NUMBERS ORGANIZADO DE FORMA CRESCENTE.
 
-//===================================================================================================================================\\
-//|QUANDO TEMOS UM FO DENTRO DO OUTRO PARA CADA UMA POSIÇÃO EXECUTADA DA LADO DE FORA ELE PERCORRE TODAS AS POSIÇÕES DO FOR DE DENTRO.|\\
-//=======================================================================================================================================\\
+  //====================================================================================================================================| 
+ //|QUANDO TEMOS UM FOR DENTRO DO OUTRO PARA CADA UMA POSIÇÃO EXECUTADA DA LADO DE FORA ELE PERCORRE TODAS AS POSIÇÕES DO FOR DE DENTRO.|  
+//======================================================================================================================================|
 _____________________________________________________________________________________________________________________________________________________
 //EXERCICIO2
 let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -44,15 +44,13 @@ let multiplicado = [];
 let posicao1;
 let posicao2;
 
-for (let contador = 0; contador < numbers3.length; contador += 1) {
-    for (let contador2 = 1; contador2 < numbers3.length; contador2 += 1) {
-        posicao1 = numbers3[contador];
-        posicao2 = numbers3[contador2];
-    if(contador < contador2){
-        multiplicado.push(posicao1 * posicao2);
+for (let contador = 0; contador < numbers3.length; contador += 1) { // 1. PERCORRE TODO ARRAY DA POSIÇÃO 0 ATÉ A ULTIMA POSIÇÃO DO ARRAY
+    for (let contador2 = 1; contador2 < numbers3.length; contador2 += 1) {//2. PERCORRE TODO ARRAY DA POSIÇÃO 1 ATÉ A ULTIMA POSIÇÃO DO ARRAY
+        posicao1 = numbers3[contador]; //3. ARMAZENA EM UMA VARIAVEL O VALOR CONTIDO NA POSIÇÃO DO CONTADOR DO PASSO 1.
+        posicao2 = numbers3[contador2]; //4. ARMAZENA EM UMA VARIAVEL O VALOR CONTIDO NA POSIÇÃO DO CONTADOR2 DO PASSO 2.
+    if(contador < contador2){//5. VERIFICA SE O CONTADOR É MENOR QUE O CONTADOR 2.
+        multiplicado.push(posicao1 * posicao2);//6. CASO O PASSO 5 SERJA VERDADEIRO MULTIPLICA O VALOR CONTIDO NA VARIAVEL DO PASSO 3 PELO O DA VARIAVEL DO PASSO 4 E ARMAZENA O RESULTADO NO FINAL DE UM ARRAY.
+        break;//7. FAZ UMA PAUSA NO LOOP FOR INTERNO PARA INCREMENTAR O FOR EXTERNO E INICIAR NOVAMENTE NO PASSO 1.
      }
     }
 }
-
-console.log(multiplicado);
-
