@@ -1,6 +1,6 @@
 # Exercícios Fixação
 
-## 0 - Bae do Conteúdo.
+## 0 - Base do Conteúdo.
 
 Exercicio para fixar o conteudo sobre `Array`, loop `For` e `For/of`.
 
