@@ -7,3 +7,5 @@ Acessar dados do HTML com o JavaScript através dos seletores do DOM.
 ### 1. Fixação:
 
 Contem exercicios divididos por cada tema abordado como uma proposta realmente de fixar o que foi aprendido naquele tema.
+
+# COLOQUE AQUI MAIS SOBRE EXERCICIOS QUE TIVEREM ALEḾ DE FIXAÇÃO //EDITAR
