@@ -1,4 +1,4 @@
-# ESCREVA AQUI O É SOLICITADO NOS EXERCÍCIOS PARA FAZER //EDITAR
+# Buscando, Criando e Removendo Elementos.
 
 ## 1. Buscando Elementos.
 
