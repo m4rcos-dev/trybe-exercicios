@@ -89,7 +89,22 @@
       criaImagem.src = 'https://picsum.photos/200';
       criaImagem.className = 'samll-image';
       selecionaSecaoEsquerda.appendChild(criaImagem);
+
+      let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
       
+      for(let i = 0; i < numeros.length; i += 1){
+        let selecionaSecaoDireita = document.querySelector('.right-content');
+      let criaListaNOrdenada = document.createElement('ul');
+      criaListaNOrdenada.id = 'list1'
+      selecionaSecaoDireita.appendChild(criaListaNOrdenada);
+      
+      let selecionaLista = document.querySelector('#list1')
+      let criaTagLi = document.createElement('li');
+      criaTagLi.innerText = numeros[i];
+      selecionaLista.appendChild(criaTagLi)
+      }
+
+
 
 
     </script>
