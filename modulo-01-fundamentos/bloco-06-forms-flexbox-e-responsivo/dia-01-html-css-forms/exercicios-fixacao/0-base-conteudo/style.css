@@ -1,0 +1,27 @@
+
+p {
+    font-size: 20px;
+    text-align: center;
+    background-color: silver;
+    border: 1px solid thistle;
+    padding: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+
+#form-login {
+    text-align: center;
+    background-color: silver;
+    border: 1px solid thistle;
+    padding: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+
+.space {
+    margin-bottom: 10px;
+}
