@@ -15,7 +15,7 @@
       }
 
       .main-content {
-        background-color: yellow;
+        background-color: green;
       }
 
       .main-content .center-content {
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -59,6 +59,7 @@
     <script>
       let bodin = document.getElementById('pai');
       let titulo = document.createElement('h1');
+      titulo.className = 'title';//PART 2 EXERCICIOS
       titulo.innerText = "teste";
       bodin.appendChild (titulo);
 
@@ -101,11 +102,24 @@
       let selecionaLista = document.querySelector('#list1')
       let criaTagLi = document.createElement('li');
       criaTagLi.innerText = numeros[i];
+      criaTagLi.className = 'lista-de-numeros';
       selecionaLista.appendChild(criaTagLi)
       }
 
+      let criaOsH3 = document.createElement('h3');
+      mainPai.appendChild(criaOsH3);
+      criaOsH3.className = 'description';
 
+      //PART 2 EXERCICIOS
 
+      mainPai.removeChild(selecionaSecaoEsquerda);
+      let selecionaTagLi = document.getElementsByClassName('lista-de-numeros');
+      let selecionaLista = document.querySelector('#list1')
+
+      for (let index =0; index < 2; index += 1){
+        let elemento = selecionaTagLi[selecionaTagLi.length -1];
+        selecionaLista.removeChild(elemento);
+      }
 
     </script>
   </body>
