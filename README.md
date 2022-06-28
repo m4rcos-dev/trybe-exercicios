@@ -6,7 +6,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a introdução de desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web: :white_check_mark:
+## Fundamentos do Desenvolvimento Web: ⏳
 
 ##### Bloco 1: Introdução - Unix e Shell
 
@@ -25,12 +25,12 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 3-2: _HTML e CSS - Introdução ao CSS_
 - [ ] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML semântico_
-- [ ] 3-5: _ [Projeto - HTML e CSS] () _
+- [x] 3-5: [Projeto HTML e CSS | LESSONS LEARNED](https://m4rcos-dev.github.io/trybe-projetos/Lessons-Learned/?target=_blank) 
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [ ] 4-1: _JavaScript - Introdução_
-- [ ] 4-2: _JavaScript - Array e Loop For_
+- [x] 4-1: _JavaScript - Introdução_
+- [x] 4-2: _JavaScript - Array e Loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e Recursos_
 - [ ] 4-5: _ [Projeto - Funções do Playground] () _
@@ -84,7 +84,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 10-3: _Jest - Simulando Comportamentos_
 - [ ] 10-4: _ [Projeto - Montagem e Simulação de Brincadeiras] () _
 
-## Desenvolvimento front-end: hourglass_flowing_sand:
+## Desenvolvimento front-end: ⏳
 
 ##### Bloco 11: Introdução - Reagir
 
@@ -140,7 +140,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [ ] 19-1: _ [Projeto - Aplicativo de Receita] () _
 
-## Desenvolvimento de back-end: hourglass_flowing_sand:
+## Desenvolvimento de back-end: ⏳
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -236,7 +236,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [ ] 34-1: _ [Projeto - Trybeer V2] () _
 
-## Ciência da Computação: hourglass_flowing_sand:
+## Ciência da Computação: ⏳
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
