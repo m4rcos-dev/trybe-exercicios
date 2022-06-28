@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#list-n-ordenada {
+    background-color: blue;
+}
+
+.fundo-paragrafo {
+    background-color: brown;
+}
+
+#intem1 {
+    color: yellow;
+}
+
+#intem2 {
+    color: red;
+}
+#intem3 {
+    color: brown;
+}
