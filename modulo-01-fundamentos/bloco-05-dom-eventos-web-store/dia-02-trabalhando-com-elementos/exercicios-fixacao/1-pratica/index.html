@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: green;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body id="pai">
+    <script>
+      let bodin = document.getElementById('pai');
+      let titulo = document.createElement('h1');
+      titulo.className = 'title';//PART 2 EXERCICIOS
+      titulo.innerText = "teste";
+      bodin.appendChild (titulo);
+
+      let main = document.createElement('main');
+      main.className = "main-content";
+      bodin.appendChild(main);
+
+      let mainPai = document.querySelector('.main-content');
+      let secaoCentro = document.createElement('section');
+      secaoCentro.className = 'center-content';
+      mainPai.appendChild(secaoCentro);
+
+      let secaoCentral = document.querySelector('.center-content')
+      let pzin = document.createElement('p');
+      pzin.innerText = "Algum texto";
+      secaoCentral.appendChild(pzin);
+      
+      let criaSecaoEsquerda = document.createElement('section');
+      criaSecaoEsquerda.className = 'left-content';
+      mainPai.appendChild(criaSecaoEsquerda);
+
+      let criaSecaoDireita = document.createElement('section');
+      criaSecaoDireita.className = 'right-content';
+      mainPai.appendChild(criaSecaoDireita);
+
+      let selecionaSecaoEsquerda = document.querySelector('.left-content')
+      let criaImagem = document.createElement('img');
+      criaImagem.src = 'https://picsum.photos/200';
+      criaImagem.className = 'samll-image';
+      selecionaSecaoEsquerda.appendChild(criaImagem);
+
+      let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      
+      for(let i = 0; i < numeros.length; i += 1){
+        let selecionaSecaoDireita = document.querySelector('.right-content');
+      let criaListaNOrdenada = document.createElement('ul');
+      criaListaNOrdenada.id = 'list1'
+      selecionaSecaoDireita.appendChild(criaListaNOrdenada);
+      
+      let selecionaLista = document.querySelector('#list1')
+      let criaTagLi = document.createElement('li');
+      criaTagLi.innerText = numeros[i];
+      criaTagLi.className = 'lista-de-numeros';
+      selecionaLista.appendChild(criaTagLi)
+      }
+
+      let criaOsH3 = document.createElement('h3');
+      mainPai.appendChild(criaOsH3);
+      criaOsH3.className = 'description';
+
+      //PART 2 EXERCICIOS
+
+      mainPai.removeChild(selecionaSecaoEsquerda);
+      let selecionaTagLi = document.getElementsByClassName('lista-de-numeros');
+      let selecionaLista = document.querySelector('#list1')
+
+      for (let index =0; index < 2; index += 1){
+        let elemento = selecionaTagLi[selecionaTagLi.length -1];
+        selecionaLista.removeChild(elemento);
+      }
+
+    </script>
+  </body>
+</html>
