@@ -1,0 +1,91 @@
+.paleta-cores:hover {
+    border: solid;
+}
+
+div {
+    font-style: italic;
+}
+
+div:hover {
+    border: solid;
+}
+
+.primaria-amarelo:hover {
+    border: solid;
+    background-color: yellow;
+}
+
+.primaria-azul:hover {
+    background-color: blue;
+    border: solid;
+}
+
+#div1:hover {
+    background-color: red;
+}
+
+#div2:hover {
+    background-color: orange;
+    border: solid;
+}
+
+.secundaria-verde:hover {
+    background-color: green;
+    border: solid;
+}
+
+.secundaria-roxo:hover {
+    background-color: purple;
+    border: solid;
+}
+
+#div3:hover {
+    border: solid;
+    background-color: darkorchid;
+}
+
+
+.terciaria-ver-alan:hover {
+    border: solid;
+    background-color: tomato;
+}
+
+.terciaria-ama-esv:hover {
+    border: solid;
+    background-color: greenyellow;
+}
+
+.terciaria-ama-alan:hover {
+    border: solid;
+    background-color: darkgoldenrod;
+}
+
+.terciaria-azu-arr:hover {
+    border: solid;
+    background-color: blueviolet;
+}
+
+.terciaria-azu-esv:hover {
+    border: solid;
+    background-color: olivedrab;
+}
+
+#div4:hover {
+    border: solid;
+    background-color: black;
+    color: aliceblue;
+}
+
+.escura:hover {
+    border: solid;
+}
+
+#div5:hover {
+    border: solid;
+    background-color: aliceblue;
+    color: black
+}
+
+.clara:hover {
+    border: solid;
+}
