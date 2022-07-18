@@ -24,4 +24,4 @@ Funções que interagem com **objetos**, que são:
 
 Conceito em testar em pequenos passos _**baby steps**_ orientando o desenvolvimento com base nos testes _**TDD**_.
 
-Utilizar o _**JEST**_, framework de testes para JavaScript desenvolvido pelo Facebook.
+Utilizar o _**JEST**_, framework de testes para JavaScript desenvolvido pelo Facebook
