@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const Task = (value) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <li className='box'>{value}</li>
   );
+}
+
+function App() {
+  const arrToDoList = ['Hello, world! React', 'Componentes React', 'Projeto', 'Tarefa 4', 'Tarefa 5', 'etc...']
+  return (
+    <main className='main'>
+      {arrToDoList.map((e, index) => {
+        return(
+          <ul key={index}>
+            {index}: {Task(e)}
+          </ul>
+        )
+      })}
+    </main>
+);
 }
 
 export default App;
