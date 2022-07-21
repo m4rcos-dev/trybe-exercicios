@@ -1,0 +1,9 @@
+body {
+  background-color: coral;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}

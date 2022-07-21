@@ -1,0 +1,25 @@
+.poke-cart {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 0 1em gold;
+}
+
+.poke-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    height: 190px;
+    color: white;
+}
+
+.poke-img {
+    width: 190px;
+}
