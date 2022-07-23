@@ -1,0 +1,11 @@
+.reset-button {
+  background-color: red;
+  color: white;
+  height: 50px;
+  box-shadow: 0 0 1em gold;
+}
+
+.reset-button:disabled {
+  opacity: 0.3;
+  box-shadow: none;
+}

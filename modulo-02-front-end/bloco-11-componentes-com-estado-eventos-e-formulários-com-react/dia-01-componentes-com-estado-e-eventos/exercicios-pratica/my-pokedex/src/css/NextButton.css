@@ -1,0 +1,11 @@
+.next-button {
+  background-color: green;
+  color: white;
+  height: 50px;
+  box-shadow: 0 0 1em gold;
+}
+
+.next-button:disabled {
+  opacity: 0.3;
+  box-shadow: none;
+}
