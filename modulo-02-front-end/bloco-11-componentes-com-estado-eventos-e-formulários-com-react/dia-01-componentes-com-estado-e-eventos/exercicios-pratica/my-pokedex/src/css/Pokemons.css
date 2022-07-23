@@ -1,6 +1,7 @@
 .poke-cart {
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 2px solid black;
     width: 310px;
     height: 210px;
@@ -10,16 +11,6 @@
     box-shadow: 0 0 1em gold;
 }
 
-.poke-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
-    padding: 20px;
-    height: 190px;
-    color: white;
-}
-
 .poke-img {
-    width: 190px;
+    width: 240px;
 }

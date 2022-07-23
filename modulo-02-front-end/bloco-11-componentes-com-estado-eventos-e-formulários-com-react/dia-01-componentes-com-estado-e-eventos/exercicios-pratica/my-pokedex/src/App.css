@@ -27,11 +27,21 @@ body {
 .buttons-container > button {
   margin: 0px;
 }
+.seconde-section-pokedex {
+  display: flex;
+  flex-direction: column;
+}
+.info-pokemon-container {
+  margin: 220px 0px 15px 180px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 1em gold;
+}
 
 .buttons-type-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 375px 0px 0px 190px;
+  margin: 0px 0px 0px 190px;
   width: 350px;
 }

@@ -6,6 +6,7 @@ import Header from './components/Header';
 import NextButton from './components/NextButton';
 import FilterTypeButton from './components/FilterTypeButton';
 import AllPokemonsButton from './components/AllPokemonsButton';
+import InfoPokemon from './components/InfoPokemon';
 
 class App extends React.Component {
   constructor() {
@@ -67,6 +68,9 @@ class App extends React.Component {
             </div>
 
             <div className='seconde-section-pokedex'>
+              <div className='info-pokemon-container'>
+                <InfoPokemon pokemons={this.state.arrayCurrentPokemons[this.state.currentPokemon]} />
+              </div>
               <div className='buttons-type-container'>
                 {noRepeatType.map((e) => {
                   return <FilterTypeButton key={e.type} pokemonFilter={this.pokemonFilter} pokemons={e} />
