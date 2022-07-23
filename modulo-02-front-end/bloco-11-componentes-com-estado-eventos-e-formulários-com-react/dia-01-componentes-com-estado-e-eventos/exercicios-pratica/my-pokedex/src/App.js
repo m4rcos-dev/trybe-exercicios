@@ -36,14 +36,14 @@ class App extends React.Component {
       this.setState({ arrayCurrentPokemons: filtrered, currentPokemon: 0 }, () => {
         const isDisabled = (filtrered.length === 1)
 
-        this.setState({isDisabled: isDisabled, resetIsDisabled: false});
+        this.setState({ isDisabled: isDisabled, resetIsDisabled: false });
       })
     })
   }
 
   pokemonReset = () => {
-    this.setState({arrayCurrentPokemons: data, currentPokemon: 0}, () => {
-      this.setState({isDisabled: false, resetIsDisabled: true})
+    this.setState({ arrayCurrentPokemons: data, currentPokemon: 0 }, () => {
+      this.setState({ isDisabled: false, resetIsDisabled: true })
     })
   }
 
@@ -53,18 +53,33 @@ class App extends React.Component {
       .map((poke) => poke = { type: poke })
 
     return (
-      <><Header /><main className='main'>
-        <Pokemon pokemons={this.state.arrayCurrentPokemons[this.state.currentPokemon]} />
-        <div className='buttons-type-container'>
-          {noRepeatType.map((e) => {
-            return <FilterTypeButton key={e.type} pokemonFilter={this.pokemonFilter} pokemons={e} />
-          })}
-        </div>
-        <div className='buttons-container'>
-        <NextButton disabled={this.state.isDisabled} pokemonCurrent={this.pokemonCurrent} />
-        <AllPokemonsButton disabled={this.state.resetIsDisabled} pokemonReset={this.pokemonReset} />
-        </div>
-      </main></>
+      <><Header />
+        <main className='main'>
+
+          <div className='pokedex-container'>
+
+            <div className='pokemon-buttons-container'>
+              <Pokemon pokemons={this.state.arrayCurrentPokemons[this.state.currentPokemon]} />
+              <div className='buttons-container'>
+                <NextButton disabled={this.state.isDisabled} pokemonCurrent={this.pokemonCurrent} />
+                <AllPokemonsButton disabled={this.state.resetIsDisabled} pokemonReset={this.pokemonReset} />
+              </div>
+            </div>
+
+            <div className='seconde-section-pokedex'>
+              <div className='buttons-type-container'>
+                {noRepeatType.map((e) => {
+                  return <FilterTypeButton key={e.type} pokemonFilter={this.pokemonFilter} pokemons={e} />
+                })}
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </main>
+      </>
     )
   }
 }

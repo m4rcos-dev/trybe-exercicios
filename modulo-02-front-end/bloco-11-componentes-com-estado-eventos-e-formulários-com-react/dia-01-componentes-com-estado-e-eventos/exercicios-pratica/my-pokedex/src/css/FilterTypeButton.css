@@ -1,11 +1,9 @@
 .defaultbutton {
-  background-color: black;
+  background-color: #22c4ea;
   color: white;
-  height: 50px;
-  width: 80px;
-  box-shadow: 0 0 1em gold;
+  height: 44px;
+  width: 63px;
   font-weight: bold;
-  margin: 10px;
 }
 
 
