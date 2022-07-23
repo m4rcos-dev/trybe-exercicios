@@ -1,0 +1,11 @@
+.defaultbutton {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 80px;
+  box-shadow: 0 0 1em gold;
+  font-weight: bold;
+  margin: 10px;
+}
+
+

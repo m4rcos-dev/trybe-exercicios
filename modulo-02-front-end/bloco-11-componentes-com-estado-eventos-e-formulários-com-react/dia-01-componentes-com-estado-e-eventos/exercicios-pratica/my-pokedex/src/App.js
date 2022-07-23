@@ -5,6 +5,7 @@ import data from './data'
 import Header from './components/Header';
 import NextButton from './components/NextButton';
 import FilterTypeButton from './components/FilterTypeButton';
+import AllPokemonsButton from './components/AllPokemonsButton';
 
 class App extends React.Component {
   constructor() {
@@ -12,7 +13,9 @@ class App extends React.Component {
     this.state = {
       currentPokemon: 0,
       currentFilter: "noFilter",
-      arrayCurrentPokemons: data
+      arrayCurrentPokemons: data,
+      isDisabled: false,
+      resetIsDisabled: true
     }
   }
 
@@ -26,33 +29,42 @@ class App extends React.Component {
   }
 
   pokemonFilter = ({ target: { name } }) => {
-    console.log(name);
     this.setState({ currentFilter: name }, () => {
       const filtrered = data.filter((e) => {
         return e.type.includes(this.state.currentFilter);
       })
-      this.setState({ arrayCurrentPokemons: filtrered, currentPokemon: 0 })
+      this.setState({ arrayCurrentPokemons: filtrered, currentPokemon: 0 }, () => {
+        const isDisabled = (filtrered.length === 1)
+
+        this.setState({isDisabled: isDisabled, resetIsDisabled: false});
+      })
     })
   }
 
-  teste = ({ target }) => {
-    console.log(target);
+  pokemonReset = () => {
+    this.setState({arrayCurrentPokemons: data, currentPokemon: 0}, () => {
+      this.setState({isDisabled: false, resetIsDisabled: true})
+    })
   }
 
   render() {
+    const filterType = data.map((e) => e.type);
+    const noRepeatType = filterType.filter((e, i) => filterType.indexOf(e) === i)
+      .map((poke) => poke = { type: poke })
+
     return (
       <><Header /><main className='main'>
         <Pokemon pokemons={this.state.arrayCurrentPokemons[this.state.currentPokemon]} />
-        <div>
-          {data.map((e) => {
-            return <FilterTypeButton pokemonFilter={this.pokemonFilter} pokemons={e} />
+        <div className='buttons-type-container'>
+          {noRepeatType.map((e) => {
+            return <FilterTypeButton key={e.type} pokemonFilter={this.pokemonFilter} pokemons={e} />
           })}
-          <FilterTypeButton pokemonFilter={this.pokemonFilter} pokemons={data[0]} />
-          <><button name='Fire' onClick={this.pokemonFilter}>Fire</button></>
         </div>
-        <NextButton pokemonCurrent={this.pokemonCurrent} />
+        <div className='buttons-container'>
+        <NextButton disabled={this.state.isDisabled} pokemonCurrent={this.pokemonCurrent} />
+        <AllPokemonsButton disabled={this.state.resetIsDisabled} pokemonReset={this.pokemonReset} />
+        </div>
       </main></>
-      // <Pokemon pokemons={data[0]} />
     )
   }
 }

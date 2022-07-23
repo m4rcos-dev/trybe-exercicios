@@ -1,12 +1,16 @@
 import React from "react";
+import '../css/NextButton.css'
 
 class NextButton extends React.Component {
     render() {
         const { pokemonCurrent } = this.props
+        const { disabled } = this.props
         return (
-            <div>
-                <button onClick={pokemonCurrent}>Proximo Pokemon</button>
-            </div>
+                <button
+                    className="next-button"
+                    disabled={disabled}
+                    onClick={pokemonCurrent}>Proximo Pokemon
+                </button>
         )
     }
 }
