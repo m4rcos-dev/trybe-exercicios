@@ -73,18 +73,18 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 ## Desenvolvimento front-end: ⏳
 
-##### Bloco 9: assincronia e retornos de chamada
+##### Bloco 9: JavaScript e Testes Assíncronos
 
 - [ ] 9-1: _Introdução Front-edn | JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-3: _ [Projeto - Carrinho de Compras] (https://m4rcos-dev.github.io/trybe-projetos/shopping-cart/?target=_blank) _
+- [ ] 9-3: [Projeto - Carrinho de Compras](https://m4rcos-dev.github.io/trybe-projetos/shopping-cart/?target=_blank)
 
 ##### Bloco 10: React
 
 - [x] 10-1: _Introdução React | 'Hello, world!' no React!_
 - [ ] 10-2: _Componentes React_
-- [ ] 10-4: _ [Projeto - Sistema Solar] (https://m4rcos-dev.github.io/project-solar-system-trybe/?target=_blank) _
+- [ ] 10-4: [Projeto - Sistema Solar](https://m4rcos-dev.github.io/project-solar-system-trybe/?target=_blank)
 
 ##### Bloco 11: Introdução - Reagir
 
