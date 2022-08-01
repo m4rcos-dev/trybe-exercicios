@@ -8,9 +8,9 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 ## Fundamentos do Desenvolvimento Web: ⏳
 
-##### Bloco 1: Introdução - Unix e Shell
+##### Bloco 01: Unix e Shell
 
-- [x] 1-3: _Unix e Shell- Parte 1_
+- [x] 1-3: _Fundamentos do Desenvolvimento Web | Introdução | Unix e Shell - Part 1 _
 - [x] 1-4: _Unix e Shell- Parte 2_
 
 ##### Bloco 2: Git e GitHub
@@ -32,15 +32,15 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 4-1: _JavaScript - Introdução_
 - [x] 4-2: _JavaScript - Array e Loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e Recursos_
+- [ ] 4-4: _JavaScript - Objetos e Funções_
 - [ ] 4-5: _ [Projeto - Funções do Playground] () _
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com itens_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Armazenamento na Web_
+- [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _ [Projeto - Gerador de Memes] () _
 - [ ] 5-6: _ [Projeto - Pixel Art] () _
 - [ ] 5-7: _ [Projeto - Lista de tarefas] () _
@@ -50,26 +50,26 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 ##### Bloco 6: HTML e CSS avançados
 
 - [ ] 6-1: _HTML e CSS - Formulários_
-- [ ] 6-2: _Bibliotecas Javascript e Estruturas CSS_
+- [ ] 6-2: _Bibliotecas Javascript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Parte 1_
 - [ ] 6-4: _CSS Flexbox - Parte 2_
 - [ ] 6-5: _CSS responsivo - Mobile First_
-- [ ] 6-6: _ [Projeto - página inicial do Facebook] () _
+- [ ] 6-6: _ [Projeto - TrybeWarts] () _
 
 ##### Bloco 7: JavaScript ES6 e testes de unidade
 
-- [ ] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objetos_
-- [ ] 7-3: _Testes Unity em JavaScript_
-- [ ] 7-4: _ [Projeto - Testes de Unidade JavaScript] () _
+- [ ] 7-3: _Primeiro Passos em Jest_
+- [ ] 7-4: _ [Projeto - Testes de Unitários JavaScript] () _
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
-- [ ] 8-3: _JavaScript ES6 - Funções de ordem superior - reduce_
-- [ ] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
-- [ ] 8-5: _ [Projeto - Funções do zoológico] () _
+- [ ] 8-1: _JavaScript ES6 - HOF - forEach, find, some, every, sort_
+- [ ] 8-2: _JavaScript ES6 - HOF  - map e filter_
+- [ ] 8-3: _JavaScript ES6 - HOF - reduce_
+- [ ] 8-4: _JavaScript ES6 - spread operator, parâmetro rest, desestruturação e mais_
+- [ ] 8-5: _ [Projeto - Zoo Functions] () _
 
 ## Desenvolvimento front-end: ⏳
 
