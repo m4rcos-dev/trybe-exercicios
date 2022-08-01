@@ -25,7 +25,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 3-2: _HTML e CSS - Introdução ao CSS_
 - [ ] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML semântico_
-- [x] 3-5: [Projeto HTML e CSS | LESSONS LEARNED](https://m4rcos-dev.github.io/trybe-projetos/Lessons-Learned/?target=_blank) 
+- [x] 3-5: [Projeto HTML e CSS | LESSONS LEARNED](https://m4rcos-dev.github.io/trybe-projetos/Lessons-Learned/?target=_blank)
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -71,20 +71,20 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
 - [ ] 8-5: _ [Projeto - Funções do zoológico] () _
 
+## Desenvolvimento front-end: ⏳
+
 ##### Bloco 9: assincronia e retornos de chamada
 
-- [ ] 9-1: _JavaScript assíncrono e retornos de chamada_
-- [ ] 9-2: _Promessas JavaScript_
-- [ ] 9-3: _ [Projeto - Carrinho de Compras] () _
+- [ ] 9-1: _Introdução Front-edn | JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [ ] 9-3: _Jest - Testes Assíncronos_
+- [ ] 9-3: _ [Projeto - Carrinho de Compras] (https://m4rcos-dev.github.io/trybe-projetos/shopping-cart/?target=_blank) _
 
-##### Bloco 10: Brincadeira
+##### Bloco 10: React
 
-- [ ] 10-1: _Primeiros passos na brincadeira_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando Comportamentos_
-- [ ] 10-4: _ [Projeto - Montagem e Simulação de Brincadeiras] () _
-
-## Desenvolvimento front-end: ⏳
+- [x] 10-1: _Introdução React | 'Hello, world!' no React!_
+- [ ] 10-2: _Componentes React_
+- [ ] 10-4: _ [Projeto - Sistema Solar] (https://m4rcos-dev.github.io/project-solar-system-trybe/?target=_blank) _
 
 ##### Bloco 11: Introdução - Reagir
 
