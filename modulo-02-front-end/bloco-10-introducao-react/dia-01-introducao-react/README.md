@@ -1,9 +1,7 @@
-# 🚧 EM CONSTRUÇÃO 🚧
+# Conteúdo dia 10.1
 
-<!-- ## Conteúdo do dia
-
-Copiar o tópico
-sobre o dia que foi criado
-no REAME do bloco e
-acrescentar algo se
-necessário -->
+- Saber a melhor forma para instalar um gerenciador de pacotes.
+- Inicializar um projeto em React
+- Utilizar JSX no React
+- Utilizar o ReactDOM.render para renderizar elementos numa página web.
+- Utilizar o import para usar código externo junto ao seu.

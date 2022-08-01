@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #186176;
+  color: white;
+  width: 100%;
+}
+
+.color1 {color: #092332;}
+.color2 {color: #0f3b51;}
+.color3 {color: #186176;}
+.color4 {color: #208da1;}
+.color5 {color: #2bc0c9;}
